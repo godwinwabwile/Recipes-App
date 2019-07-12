@@ -27,13 +27,13 @@ class Recipe extends Component{
                             </h6>
                          </div>
                          <div className="card-footer">
-                            <button type="button" className="btn btn-primary  text-capitalize "
+                            <button type="button" className="btn btn-primary mx-2 my-2 text-capitalize "
                             onClick={()=>recipeDetailsHandler()}
                             >
                                 Detaiils
                             </button>
                             <a href={source_url} 
-                            className="btn btn-success mx-2 text-capitalize "
+                            className="btn btn-success mx-3 my-2 text-capitalize "
                             target="_blank"
                             rel="noopener noreferrer"
                             >
